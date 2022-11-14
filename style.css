@@ -1,0 +1,52 @@
+  /* Paleta de colores y tamaños generales de letras: */
+  :root{
+    /* --------------  Ejercicio 02: -------------- */
+    /* Paleta de colores */
+    --background: #1E1E1E;
+    --letterTit: #6A9949;
+    --letter: #f1f1f1;
+    --line: #D7AB4C;
+    /* Letras: */
+    --fontSizeTit: 1rem;
+    --fontFamily: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva' , 'Verdana' , 'sans-serif';
+  }
+  /* ETIQUETAS: */
+  body{
+    background-color: var(--background);
+    font-family: var(--fontFamily);
+    font-size: var(--fontSize);
+    color: var(--letter);
+    padding: 2%;
+  }
+  hr{
+    width: 80%;
+    text-align: center;
+  }
+  textarea{
+    border-radius: 12px;
+    max-width: 800px;
+    min-width: 650px;
+    width: 60vh;
+    min-height: 16vh;
+  }
+h2{
+    text-align: center;
+    font-size: 0.4rem !important;
+}
+hr{
+    width: 80%;
+    text-align: center;
+}
+#texto{
+    width: 800px;
+    height: 163px;
+}
+.copyPaste{
+    display: inline-grid;
+}
+.col-sm-5{
+    margin: 14px;
+}
+.btn-primary{
+    margin-top: 10px;
+}
